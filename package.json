@@ -13,7 +13,8 @@
   "author": "Jared Braswell and Jose Rodriguez",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.19.2"
+    "express": "^4.19.2",
+    "mongoose": "^8.3.4"
   },
   "devDependencies": {
     "concurrently": "^8.2.2",
