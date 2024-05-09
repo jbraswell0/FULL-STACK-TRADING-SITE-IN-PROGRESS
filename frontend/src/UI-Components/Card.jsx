@@ -1,5 +1,6 @@
 import React from 'react'
 import { Card } from "react-bootstrap"
+import { Link } from 'react-router-dom';
 
 {/* This is a component that will display the card image 
 once we have cards in the database */}
@@ -7,16 +8,16 @@ once we have cards in the database */}
 const Card = ({ card }) => {
   return (
     <Card className="my-3 p-3 rounded">
-        <a href={`/card/${card._id}`}>
+        <Link to={`/card/${card._id}`}>
             <Card.Img src={card.image} variant="top" />
-        </a>
+        </Link>
 
         <Card.Body>
-            <a href={`/card/${card._id}`}>
+            <Link to={`/card/${card._id}`}>
                 <Card.Title as="div">
                     <strong>{card.name}</strong>
                 </Card.Title>
-            </a>
+            </Link>
         </Card.Body>
     </Card>
   )
