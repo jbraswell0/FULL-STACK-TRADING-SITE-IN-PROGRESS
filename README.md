@@ -30,4 +30,5 @@ Completed Trade Page - Allows users to submit feedback for each other
 
 Feedback Page - Will display feedback left by other users
 
+Some references: https://docs.google.com/document/d/16KEH2eTRCYL-E7VpTo-H0qld5YaW0NCqvCzNCbbozQs/edit
 
